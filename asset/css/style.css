@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.layout{
+    height: 80px;
+    border: solid red 1px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+h1{
+    display: inline;
+    font-size: 2.5em;
+ 
+}
+.logo{
+    vertical-align: middle;
+    line-height: 100px; 
+    margin-bottom: 20px;
+}
