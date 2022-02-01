@@ -116,6 +116,7 @@ ul {
 
     li{
         margin-top: 20px;
+        margin-right: 10px;
     }
     .X:before {
         content: "\2715";
