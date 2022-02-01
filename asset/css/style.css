@@ -3,11 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* UTILITY */
+.b-blu{
+    background-color: rgb(97, 161, 221);
+    display: inline-block;
+    color: white;
+}
+.etichetta{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+/* UTILITY */
+
 .layout{
     height: 80px;
-    border: solid red 1px;
     padding-top: 10px;
     padding-left: 20px;
+    background-color: white;
 }
 h1{
     display: inline;
@@ -19,3 +36,47 @@ h1{
     line-height: 100px; 
     margin-bottom: 20px;
 }
+body{
+    height: 100%;
+    background-color: rgb(192, 192, 192);
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.task{
+    width: 90px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 5px;  
+    text-align: center;  
+}
+.section{
+    padding: 4.5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid black 1px;    
+}
+hr{
+    color: rgb(192, 192, 192);
+    margin-top: 20px;
+}
+h2{
+    margin-left: 30px;
+}
+ul {
+    list-style: none;
+    margin-left: 30px;
+  }
+  
+  li:before {
+    content: " \2713";
+    padding-right: 4px;
+    color: green;
+    border: solid 1px green;
+    border-radius: 50%;
+    }
