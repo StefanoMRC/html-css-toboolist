@@ -55,7 +55,6 @@
 h1{
     display: inline;
     font-size: 2.5em;
- 
 }
 .logo{
     vertical-align: middle;
@@ -91,7 +90,7 @@ body{
     border: solid black 1px;    
 }
 hr{
-    color: rgb(220, 220, 220);
+    color:rgb(220, 220, 220) ;
     margin-top: 20px;
 }
 h2{
@@ -101,9 +100,8 @@ h2{
 ul {
     list-style: none;
     margin-left: 35px;
-  }
-  
-  li:before {
+}
+li:before {
     content: " \2713";
     width: 20px;
     height: 20px;
@@ -111,17 +109,17 @@ ul {
     padding-left: 6px;
     color: green;
     border: solid 1px green;
-    border-radius: 50%;
-    }
+    border-radius: 50%; 
+}
 
-    li{
+li{
         margin-top: 20px;
         margin-right: 10px;
-    }
-    .X:before {
+  }
+.X:before {
         content: "\2715";
         padding-right: 6px;
         color: red;
         border: solid 1px red;
-        border-radius: 50%;
-        }
+        border-radius: 50%; 
+    }
